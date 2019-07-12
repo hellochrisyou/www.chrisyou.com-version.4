@@ -1,0 +1,79 @@
+section {
+  border-left: var(--yellow-border-width) solid var(--yellow-color);
+  background-color: white;
+  overflow: hidden;
+}
+
+#about-pic {
+  background-image: url('../../assets/img/bg/bg-about.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 45vw;
+  float: left;
+}
+
+#about-title {
+  color: var(--dark-contrast);
+  padding: 5vh 0 0 0;
+  width: 40vw;
+  font-size: 9.1vw;
+}
+
+hr {
+  width: 40vw;
+  float: right;
+}
+
+#about-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75vw;
+  font-weight: 600;
+  letter-spacing: var(--letter-spacing);
+  line-height: 5vh;
+  padding-right: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    border-top: var(--yellow-border-width) solid var(--yellow-color);
+    border-left: none;
+  }
+  img.cy-logo {
+    height: 2.7rem;
+    width: 2.7rem;
+  }
+  div#about-pic,
+  div#about-title,
+  div#about-subtitle {
+    width: 100vw;
+  }
+  hr {
+    margin: 0 0 1vw 3.45rem;
+    position: absolute;
+    left: 0;
+    width: 43vw;
+  }
+  div#about-title {
+    padding: 0;
+    line-height: initial;
+  }
+  img.cy-logo,
+  div#about-title {
+    display: inline;
+  }
+  div#about-subtitle {
+    margin-top: 6vw;
+    padding-left: 4vw;
+    padding-right: 2vw;
+    line-height: 3vh;
+    font-size: 2.55vw;
+    letter-spacing: 0.165rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+  section {
+    border-top: var(--yellow-border-width) solid var(--yellow-color);
+  }
+}

@@ -1,0 +1,67 @@
+section {
+  background-image: url('../../assets/img/bg/bg-home.png');
+  background-size: cover;
+  background-position: center;
+  border-left: var(--yellow-border-width) solid var(--yellow-color);
+}
+
+#home-title {
+  color: white;
+  padding: 30vh 0 0 5vw;
+  font-size: 9.5vw;
+  position: absolute;
+  left: 10vw;
+}
+
+hr {
+  width: 38.5vw;
+}
+
+#home-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.8vw;
+  font-weight: 600;
+  letter-spacing: 0.275rem;
+  line-height: 5vh;
+}
+
+#home-logo {
+  position: absolute;
+  top: 3.5vw;
+  right: 3.5vw;
+}
+
+#home-pic-me img {
+  height: auto;
+  width: 30vw;
+}
+
+@media only screen and (max-width: 600px) {
+  #home-title {
+    font-size: 3.5rem;
+  }
+  hr {
+    margin-top: -2vh;
+    width: 15.55rem;
+  }
+  #home-subtitle {
+    font-size: 1rem;
+  }
+  .cy-logo {
+    width: var(--mobile-logo-length);
+    height: var(--mobile-logo-length);
+  }
+  #home-logo {
+    top: 19vw;
+  }
+  div#home-pic-me img {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 65vw;
+    height: auto;
+  }
+  section {
+    border-left: var(--mobile-border-width) solid var(--yellow-color);
+  }
+}
