@@ -336,7 +336,7 @@ section {
 }
 
 .card__slide:nth-child(2) .image {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/908370/mountain-front-crop.png);
+  background-image: url('../../assets/img/recording/mountain-2.png');
   background-size: 100% auto;
   background-position: 50% top;
   background-repeat: no-repeat;
@@ -977,15 +977,19 @@ section {
 }
 
 @media only screen and (max-width: 1000px) {
-  div.card div.card__slide div.image {
+  .card__slide:nth-child(1) .image {
     width: 27vh;
     height: 150%;
   }
 }
 @media only screen and (max-width: 600px) {
-  div.card div.card__slide div.image {
+  .card__slide:nth-child(1) .image {
     width: 20vh;
     height: 150%;
+  }
+  .card__slide:nth-child(2) .image {
+    height: 100%;
+    width: 100vw;
   }
   p.desc {
     font-size: 0.75rem;

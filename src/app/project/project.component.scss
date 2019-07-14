@@ -420,8 +420,8 @@ a:hover {
     line-height: 1vh;
   }
   .project-content .project-desc {
-    letter-spacing: 0.025rem;
-    font-size: 2.5vw;
+    letter-spacing: 0;
+    font-size: 0.5rem;
     max-width: 100%;
     line-height: 2vh;
   }
@@ -430,7 +430,7 @@ a:hover {
     letter-spacing: 1px;
   }
   li {
-    padding: 1.35vw 0;
+    padding: 0.65rem 0;
   }
   div#project-title {
     font-size: 5rem;

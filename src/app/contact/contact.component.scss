@@ -117,35 +117,35 @@ i.fa {
   height: auto;
   opacity: 0.5;
 }
+@media only screen and (min-width: 700px) {
+  .social-icons:hover .social-icons-image:nth-child(1) {
+    top: 0px;
+    left: 0%;
+    width: 20%;
+    opacity: 1;
+  }
 
-.social-icons:hover .social-icons-image:nth-child(1) {
-  top: 0px;
-  left: 0%;
-  width: 20%;
-  opacity: 1;
+  .social-icons:hover .social-icons-image:nth-child(2) {
+    top: 0px;
+    left: 20%;
+    width: 20%;
+    opacity: 1;
+  }
+
+  .social-icons:hover .social-icons-image:nth-child(4) {
+    top: 0px;
+    left: 60%;
+    width: 20%;
+    opacity: 1;
+  }
+
+  .social-icons:hover .social-icons-image:nth-child(5) {
+    top: 0px;
+    left: 80%;
+    width: 20%;
+    opacity: 1;
+  }
 }
-
-.social-icons:hover .social-icons-image:nth-child(2) {
-  top: 0px;
-  left: 20%;
-  width: 20%;
-  opacity: 1;
-}
-
-.social-icons:hover .social-icons-image:nth-child(4) {
-  top: 0px;
-  left: 60%;
-  width: 20%;
-  opacity: 1;
-}
-
-.social-icons:hover .social-icons-image:nth-child(5) {
-  top: 0px;
-  left: 80%;
-  width: 20%;
-  opacity: 1;
-}
-
 @media only screen and (max-width: 1200px) {
   #contact-title {
     font-size: 10vw;
