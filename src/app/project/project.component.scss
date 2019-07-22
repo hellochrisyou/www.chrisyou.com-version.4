@@ -138,7 +138,9 @@ article {
   position: relative;
   float: right;
 }
-
+u {
+  color: var(--dark-contrast);
+}
 h1 {
   font-family: 'Six Caps', sans-serif;
   letter-spacing: 0.5rem;
@@ -154,7 +156,7 @@ h4.project-info {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 2vh;
   font-weight: 800;
   opacity: 0.8;
@@ -416,7 +418,7 @@ a:hover {
 
   h4.project-info {
     letter-spacing: 0.1rem;
-    font-size: 0.4rem;
+    font-size: 0.3rem;
     line-height: 1vh;
   }
   .project-content .project-desc {

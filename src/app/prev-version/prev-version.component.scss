@@ -8,7 +8,7 @@ section {
 
 .mat-card {
   max-width: 400px;
-  margin-top: 9vh;
+  margin-top: 5vh;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
@@ -53,8 +53,7 @@ p,
 }
 
 .show {
-  margin: 100px;
-  float: left;
+  margin: 2.5rem auto;
 }
 
 .button {
@@ -127,7 +126,7 @@ p,
   .mat-card {
     max-width: 70vw;
     height: auto;
-    margin-top: 25vh;
+    margin-top: 5vh;
   }
   video {
     width: 100%;

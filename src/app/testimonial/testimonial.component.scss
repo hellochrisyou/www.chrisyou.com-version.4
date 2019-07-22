@@ -23,7 +23,12 @@ section {
 #bottom-row {
   padding: 0 calc(var(--yellow-border-width) / 2) 0;
 }
-
+u {
+  color: var(--yellow-color);
+}
+span.chris {
+  color: var(--dark-contrast);
+}
 blockquote {
   margin: 0.5rem 0;
   font-family: 'Montserrat', sans-serif;

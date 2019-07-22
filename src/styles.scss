@@ -144,8 +144,9 @@ hr {
   height: var(--horizontal-line-height);
   color: var(--yellow-color);
   border-color: transparent;
-  background-color: var(--yellow-color);
+
   margin: 1.5vw 0;
+  display: none;
 }
 
 .shared-title {
