@@ -54,6 +54,9 @@ a {
     width: 100vw;
     margin-top: -9vh;
   }
+  .vesti-desc h4 {
+    font-size:1rem;
+}
 }
 
 @media (min-width: 760px) {
